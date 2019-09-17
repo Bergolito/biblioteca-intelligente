@@ -1,0 +1,11 @@
+echo "Arquivos modificados..."
+git status
+
+echo "Adicionando arquivos..."
+git add .
+
+echo "Comitando arquivos..."
+git commit -m 'Atualização'
+
+echo "Subindo os arquivos para o git hub..."
+git push origin master
